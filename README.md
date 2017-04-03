@@ -21,7 +21,8 @@ You mustn't sort by sort and awk. But sorting this file by database file is usef
 4. Run python sqlite3_to_pickle.py -ld list_of_sqlite3  
 This python script calculates tf-idf value for each words in databases and store the caclulated results to "name-of-database .pickle" in result directory.
 
-5. Run python summary_from_pickle.py -ld list_of_sqlite3
+5. Run python summary_from_pickle.py -ld list_of_want_to_saummarize_sqlite3
+This is last process to make summary xlsx file. You pick up some sqlite3 and write them to list_of_want_to_saummarize_sqlite3. Result is saved to summary_for_list_of_want_to_saummarize_sqlite3.xlsx.
 
 Dependings  
 - sqlite3
