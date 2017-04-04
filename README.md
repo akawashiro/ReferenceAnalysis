@@ -1,6 +1,9 @@
-reference_analysis
+# reference_analysis
 
-How to use this software?
+## Purpose of this software
+This software make a xlsx file from an event list. It shows when the events be refered from articles.
+
+## How to use this software?
 1. Prepare list_of_query file.   
 This file is a list event which you want to process.  
 I prepare default list_of_query. Please change it as you like.  
@@ -22,9 +25,9 @@ You mustn't sort by sort and awk. But sorting this file by database file is usef
 This python script calculates tf-idf value for each words in databases and store the caclulated results to "name-of-database .pickle" in result directory.
 
 5. Run python summary_from_pickle.py -ld list_of_want_to_saummarize_sqlite3
-This is last process to make summary xlsx file. You pick up some sqlite3 and write them to list_of_want_to_saummarize_sqlite3. Result is saved to summary_for_list_of_want_to_saummarize_sqlite3.xlsx.
+This is last process to make summary xlsx file. You pick up some sqlite3 and write them to list_of_want_to_saummarize_sqlite3. Result is saved to summary_for_list_of_want_to_saummarize_sqlite3.xlsx. You can use list_of_sqlite3 as list_of_want_to_saummarize_sqlite3 or make new text file to use as list_of_want_to_saummarize_sqlite3. If you want to make asummary file about earthquake, you should run "cat list_of_sqlite3 | grep earthquake > list_of_sqlite3_earthquake && python summary_from_pickle.py -ld list_of_sqlite3_earthquake".
 
-Dependings  
+## Dependings  
 - sqlite3
 - New York Times database  
  You should have free access to http://lab.dl.kuis.kyoto-u.ac.jp/~adam/solr/select.
