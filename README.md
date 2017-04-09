@@ -30,7 +30,7 @@ This is last process to make summary xlsx file. You pick up some sqlite3 and wri
 ## Dependings  
 - sqlite3
 - New York Times database  
- You should have free access to http://lab.dl.kuis.kyoto-u.ac.jp/~adam/solr/select.
+ You must have access to NEW_YORK_TIMES_DATABASE. Please rewrite all NEW_YORK_TIMES_DATABASE in sorce codes with an appropriate URL.
 - CoreNLP  
 You can download from http://nlp.stanford.edu/software/stanford-corenlp-full-2015-04-20.zip.  
 Unzip it and rewrite CORENLPDIRECTORY in kawata_corenlp.py.

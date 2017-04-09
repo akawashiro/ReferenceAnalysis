@@ -7,7 +7,7 @@ from util import slr
 
 
 LOCALHOST = 'http://localhost:8983/solr/nytimes_nitf/select'
-KAREN = 'http://lab.dl.kuis.kyoto-u.ac.jp/~adam/solr/select'
+KAREN = NEW_YORK_TIMES_DATABASE
 
 
 if __name__ == '__main__':

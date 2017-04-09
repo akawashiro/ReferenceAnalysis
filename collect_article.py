@@ -10,7 +10,7 @@ from util import slr
 
 
 LOCALHOST = 'http://localhost:8983/solr/nytimes_nitf/select'
-KAREN = 'http://lab.dl.kuis.kyoto-u.ac.jp/~adam/solr/select'
+KAREN = NEW_YORK_TIMES_DATABASE
 BEGIN_DATE = datetime.date(1987, 1, 1)
 END_DATE = datetime.date(2007, 6, 20)
 MIN_ARTICLE_NUM = 10

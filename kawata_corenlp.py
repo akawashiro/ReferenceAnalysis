@@ -45,15 +45,6 @@ class kawata_corenlp_handler:
 
         return words[1:]
 
-# def get_words_2(self,text,date):
-#     n_text = unidecode.unidecode(text)
-#     joint_text = self.__join_text_date(n_text, date)
-#     joint_text = n_text
-#
-#     req = urllib2.Request('http://www.voidspace.org.uk')
-#     response = urllib2.urlopen(req)
-#     the_page = response.read()
-#
 
 if __name__ == '__main__':
     kch = kawata_corenlp_handler()
