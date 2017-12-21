@@ -1,4 +1,4 @@
-# reference_analysis
+# ReferenceAnalysis
 
 ## Purpose of this software
 This software make a xlsx file from an event list. It shows when the events be refered from articles.
